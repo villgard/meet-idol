@@ -1,0 +1,221 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+p,
+strong {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption,
+td,
+th {
+    text-align: left;
+    font-weight: 400;
+    vertical-align: middle;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: none;
+}
+a img {
+    border: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+* {
+    box-sizing: border-box !important;
+    outline: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a[href^='tel'] {
+    color: #000;
+}
+
+.clearfix::after {
+    content: ' ';
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+input[type='button'],
+input[type='submit'],
+input[type='text'],
+textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+*:focus,
+*:active,
+*:hover {
+    outline: none !important;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100%;
+    background-color: #000000;
+    user-select: none;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+button {
+    border: none;
+    outline: none;
+    appearance: none;
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SofiaSansCondensed';
+    src: url(../fonts/SofiaSansCondensed/SofiaSansCondensed-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaSansCondensed';
+    src: url(../fonts/SofiaSansCondensed/SofiaSansCondensed-ExtraBold.woff2);
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaSans';
+    src: url(../fonts/SofiaSans/SofiaSans-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCHABO';
+    src: url(../fonts/SCHABO/SCHABO-condensed.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url(../fonts/RobotoCondensed/RobotoCondensed-regular.woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url(../fonts/RobotoCondensed/RobotoCondensed-bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
