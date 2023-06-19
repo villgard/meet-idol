@@ -60,14 +60,22 @@ function changeLocale(key) {
 }
 
 .locale {
-  padding: 9px 0px;
+  padding: 9px 0 10px;
   display: flex;
   align-items: center;
   gap: 7px;
 }
 
 .isOpen {
-  border-bottom: 1px solid #7C7D7D;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #7C7D7D;
+  }
 }
 
 </style>
